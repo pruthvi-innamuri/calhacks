@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pdf-project"
+version = "0.1.0"
+description = ""
+authors = ["pruthvi-innamuri <pruthvi.innamuri@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdfplumber = "^0.11.4"
+fillpdf = "^0.7.3"
+pypdf2 = "^3.0.1"
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+python-multipart = "^0.0.12"
+pydantic = "^2.9.2"
+groq = "^0.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
